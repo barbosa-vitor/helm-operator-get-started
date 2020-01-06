@@ -14,5 +14,5 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: business-services-platform-dev/podinfo:0.4.11
+    image: us.gcr.io/business-services-platform-dev/podinfo:0.4.11
     replicaCount: 3

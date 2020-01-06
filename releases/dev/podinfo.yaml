@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: business-services-platform-dev/podinfo:dev-hdtwcel9
+    image: us.gcr.io/business-services-platform-dev/podinfo:dev-hdtwcel9
     replicaCount: 1
     hpa:
       enabled: false
