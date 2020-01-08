@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: us.gcr.io/business-services-platform-dev/podinfo:stg-9ij63o4c
+    image: us.gcr.io/business-services-platform-dev/podinfo:stg-o4ml2wav
     replicaCount: 2
     hpa:
       enabled: true
